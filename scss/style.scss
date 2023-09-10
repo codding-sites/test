@@ -1,0 +1,54 @@
+@import "null";
+input {
+    border: 1px solid #000;
+    transition: all 0.3s ease 0s;
+    &.error {
+        border: 1px solid red;
+    }
+    &.focus {
+        border: 1px solid #000;
+    }
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 20px;
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    &>* {
+        display: flex;
+        align-items: center;
+        column-gap: 15px;
+    }
+}
+.unit {
+}
+.label {
+	
+}
+.value {
+}
+.convert {
+}
+
+
+.button {
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    background-color: orange;
+    color: #fff;
+    border-radius: 15px;
+    transition: all 0.3s ease 0s;
+    &:hover{
+        background-color: rgb(209, 136, 0);
+        color: #fff;
+    }
+    &.hold {
+        opacity: 0.5;
+        pointer-events: none;
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "units": {
+        "meter": 1,
+        "centimeter": 100,
+        "inch": 39.3701,
+        "foot": 3.28084,
+        "millimeter": 1000,
+        "yard": 1.09361,
+        "killometr": 0.001
+    }
+}
